@@ -42,6 +42,7 @@ async def ask_llm(prompt: str, expect_json: bool = True) -> str:
                 text = text.strip()
 
             return text
+        
     except Exception as e:
         print(f"LLM request failed: {str(e)[:80]}")
         return ""

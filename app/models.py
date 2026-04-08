@@ -3,8 +3,6 @@ from sqlalchemy.sql import func
 from pgvector.sqlalchemy import Vector
 from app.database import Base
 
-
-
 class Lead(Base):
     __tablename__ = "leads"
 

@@ -4,6 +4,7 @@ from app.database import Base, engine, SessionLocal
 from app.models import Lead
 import asyncio
 
+
 # ── DB INIT ──
 with engine.connect() as conn:
     conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))

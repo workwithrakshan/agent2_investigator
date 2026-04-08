@@ -51,6 +51,7 @@ async def send_connection_request(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         )
 
+
         try:
             # Load session cookies
             session_data = json.loads(open(SESSION_FILE).read())

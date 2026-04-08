@@ -13,7 +13,6 @@ from linkedin_connect import send_connection_request
 SESSION_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "session.json")
 BATCH_SIZE = None  # Process all NEW leads per run
 
-
 async def process_lead(lead_id: int):
     """
     Fully investigate one lead.

@@ -221,6 +221,7 @@ async def search_google_news(company_name: str) -> str:
 # LINKEDIN ACTIVITY SCRAPER
 # ─────────────────────────────────────────────
 
+
 async def scrape_linkedin_activity(linkedin_url: str, session_file: str) -> str:
     """
     Scrape recent LinkedIn posts from company page.
